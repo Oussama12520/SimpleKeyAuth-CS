@@ -1,0 +1,18 @@
+# Visual Studio Desktop
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build logs
+*.log
+
+# C# / .NET specific
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/

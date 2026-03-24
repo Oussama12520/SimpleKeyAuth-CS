@@ -1,0 +1,47 @@
+KEYAUTH FIX GUIDE FOR VISUAL STUDIO
+===================================
+
+If you encounter errors when building this project in your own Visual Studio, follow these steps to fix them:
+
+1. FIX MISSING REFERENCES (Build Errors)
+----------------------------------------
+The errors about "BigInteger" or "DataContractJsonSerializer" mean you are missing some .NET Framework references.
+
+Steps to add them in Visual Studio:
+   a. Go to the "Solution Explorer" (usually on the right side).
+   b. Right-click on "References" under your "login" project.
+   c. Select "Add Reference...".
+   d. In the "Reference Manager" window, click "Assemblies" on the left.
+   e. Search for and check the boxes for these three items:
+      - System.Numerics (Fixes 'BigInteger' error)
+      - System.Runtime.Serialization (Fixes 'DataContractJsonSerializer' error)
+      - System.Management (Required for HWID checks)
+   f. Click OK.
+
+2. FIX LOGIN CODE (If Form is Empty)
+------------------------------------
+If your login button doesn't do anything or the app crashes on start:
+
+Steps to check "login.cs":
+   a. Double-click "login.cs" in Solution Explorer to view code.
+   b. Ensure you have the initialization code inside `login_Load`:
+      await KeyAuthApp.init();
+
+   c. Ensure your button click event runs the login function:
+      await KeyAuthApp.login(txtusername.Text, textBox1.Text);
+
+   d. IMPORTANT: Make sure these events are actually connected! 
+      - Go to the Form Design view (Shift+F7).
+      - Double-click the form background to generate the `_Load` link.
+      - Double-click your Login button to generate the `_Click` link.
+      - Copy/paste the code logic into these generated functions if needed.
+
+3. CHECK CREDENTIALS
+--------------------
+   a. Make sure your `Name` and `OwnerID` in `login.cs` match your KeyAuth dashboard exactly.
+   b. Make sure `version` is "1.0" (or matches your dash).
+
+4. REBUILD
+----------
+   a. Go to "Build" menu -> "Rebuild Solution".
+   b. It should now say "Build succeeded" at the bottom.
