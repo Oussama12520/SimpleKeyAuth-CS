@@ -16,7 +16,16 @@
   </tr>
 </table>
 
-
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Oussama12520.png" alt="Profile" width="120" height="120" style="border-radius:50%;">
+    </td>
+    <td>
+      <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="ASCII Animation" width="400">
+    </td>
+  </tr>
+</table>
 # Simple Login - KeyAuth Integration
 
 A simple, secure, and modern C# Windows Forms application that demonstrates how to integrate the KeyAuth authentication system. This project provides a solid foundation for building applications that require user authentication, license validation, and secure access control.
