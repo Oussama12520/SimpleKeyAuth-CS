@@ -16,41 +16,6 @@
   </tr>
 </table>
 
-
-
-
-<table style="border: 3px solid #4CAF50; border-radius: 15px; padding: 10px;">
-  <tr>
-    <!-- Profile Photo with Circular Border -->
-    <td style="vertical-align: top; padding-right: 20px;">
-      <img src="https://github.com/Oussama12520.png" 
-           alt="Profile" width="120" height="120" 
-           style="border-radius:50%; border: 3px solid #4CAF50;">
-    </td>
-
-    <!-- ASCII Logo -->
-    <td style="vertical-align: top;">
-      <pre style="font-family: monospace; line-height: 1.1; font-size: 14px; color: #4CAF50;">
-██╗ ██████╗ ███████╗ █████╗ ███╗   ███╗ █████╗ 
-██║██╔═══██╗██╔════╝██╔══██╗████╗ ████║██╔══██╗
-██║██║   ██║███████╗███████║██╔████╔██║███████║
-╚═╝██║   ██║╚════██║██╔══██║██║╚██╔╝██║██╔══██║
-██╗╚██████╔╝███████║██║  ██║██║ ╚═╝ ██║██║  ██║
-╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
-      </pre>
-    </td>
-  </tr>
-</table>
-
-
-
-
-
-
-
-
-
-
 # Simple Login - KeyAuth Integration
 
 A simple, secure, and modern C# Windows Forms application that demonstrates how to integrate the KeyAuth authentication system. This project provides a solid foundation for building applications that require user authentication, license validation, and secure access control.
