@@ -1,4 +1,4 @@
-<table border="0" cellspacing="0" cellpadding="0">
+<table>
   <tr>
     <td>
       <img src="https://github.com/Oussama12520.png" alt="Profile" width="180" height="180" style="border-radius:50%;">
