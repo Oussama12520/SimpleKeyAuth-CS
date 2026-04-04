@@ -1,7 +1,7 @@
-<table>
+<table style="width:100%; border-collapse: collapse; text-align: center;">
   <tr>
     <td>
-      <img src="https://github.com/Oussama12520.png" alt="Profile" width="180" height="180" style="border-radius:50%;">
+      <img src="https://github.com/Oussama12520.png" alt="Profile" width="120" height="120" style="border-radius:50%;">
     </td>
     <td>
 <pre>
@@ -14,7 +14,7 @@
 </pre>
     </td>
     <td>
-        <img src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdvMDk3ZmR6aWNvZ2tncThpMDZzMGE2cjBuMnZzZHk4bWMwNnp6MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R7m04yMaGWVeE/giphy.gif" alt="GitHub" width="220" height="150">
+        <img src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdvMDk3ZmR6aWNvZ2tncThpMDZzMGE2cjBuMnZzZHk4bWMwNnp6MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R7m04yMaGWVeE/giphy.gif" alt="GitHub" width="120" height="120">
     </td>
   </tr>
 </table>
