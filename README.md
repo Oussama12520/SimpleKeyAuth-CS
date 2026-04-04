@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Oussama12520.png" alt="Profile" width="120" height="120" style="border-radius:50%;">
+      <img src="https://github.com/Oussama12520.png" alt="Profile" width="180" height="180" style="border-radius:50%;">
     </td>
     <td>
 <pre>
