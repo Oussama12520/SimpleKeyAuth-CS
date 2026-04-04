@@ -16,6 +16,9 @@
     <td>
         <img src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdvMDk3ZmR6aWNvZ2tncThpMDZzMGE2cjBuMnZzZHk4bWMwNnp6MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R7m04yMaGWVeE/giphy.gif" alt="GitHub" width="220" height="150">
     </td>
+    <td>
+      <img src = "https://tenor.com/bFPD9.gif">
+    </td>
   </tr>
 </table>
 
