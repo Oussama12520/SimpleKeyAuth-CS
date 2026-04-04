@@ -1,51 +1,5 @@
 <table>
   <tr>
-    <!-- Profile Photo -->
-    <td>
-      <img src="https://github.com/Oussama12520.png" alt="Profile" width="180" height="180" style="border-radius:50%;">
-    </td>
-
-    <!-- ASCII Logo with Color Animation -->
-    <td>
-      <pre id="ascii-logo">
-██╗ ██████╗ ███████╗ █████╗ ███╗   ███╗ █████╗ 
-██║██╔═══██╗██╔════╝██╔══██╗████╗ ████║██╔══██╗
-██║██║   ██║███████╗███████║██╔████╔██║███████║
-╚═╝██║   ██║╚════██║██╔══██║██║╚██╔╝██║██╔══██║
-██╗╚██████╔╝███████║██║  ██║██║ ╚═╝ ██║██║  ██║
-╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
-      </pre>
-    </td>
-
-    <!-- GIF -->
-    <td>
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdvMDk3ZmR6aWNvZ2tncThpMDZzMGE2cjBuMnZzZHk4bWMwNnp6MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R7m04yMaGWVeE/giphy.gif" alt="GitHub" width="220" height="150">
-    </td>
-  </tr>
-</table>
-
-<style>
-  /* Define the color-changing animation */
-  @keyframes color-change {
-    0% { color: #ff0000; }
-    20% { color: #ff7f00; }
-    40% { color: #ffff00; }
-    60% { color: #00ff00; }
-    80% { color: #0000ff; }
-    100% { color: #8b00ff; }
-  }
-
-  #ascii-logo {
-    font-family: monospace;
-    font-size: 14px;
-    line-height: 1.1;
-    animation: color-change 12s infinite;
-  }
-</style>
-
-
-<table>
-  <tr>
     <td>
       <img src="https://github.com/Oussama12520.png" alt="Profile" width="180" height="180" style="border-radius:50%;">
     </td>
