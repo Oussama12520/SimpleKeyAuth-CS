@@ -17,15 +17,6 @@
 </table>
 
 
-
-```
-██╗ ██████╗ ███████╗ █████╗ ███╗   ███╗ █████╗ 
-██║██╔═══██╗██╔════╝██╔══██╗████╗ ████║██╔══██╗
-██║██║   ██║███████╗███████║██╔████╔██║███████║
-╚═╝██║   ██║╚════██║██╔══██║██║╚██╔╝██║██╔══██║
-██╗╚██████╔╝███████║██║  ██║██║ ╚═╝ ██║██║  ██║
-╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
-```
 # Simple Login - KeyAuth Integration
 
 A simple, secure, and modern C# Windows Forms application that demonstrates how to integrate the KeyAuth authentication system. This project provides a solid foundation for building applications that require user authentication, license validation, and secure access control.
